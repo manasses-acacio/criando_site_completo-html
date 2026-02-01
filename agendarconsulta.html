@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendar Conculta</title>
+    <link rel="stylesheet" href="css/base.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+         
+        <div class="menu">
+             <div style="border: rgb(63, 182, 182) solid 5px; border-radius: 25px;">
+             <img src="img/elegantelog.png" width="100%" height="20%" alt="logotipo da clínica">
+             </div> 
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="sobreaclinica.html">Sobre a Clínica</a></li>
+                <li><a href="horariodeatendimento.html">Horário de Atendimento</a></li>
+                <li><a href="agendarconsulta.html">Agendar Consulta</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <a href="index.html">Voltar à Principal</a>
+            </ul>
+        </div>
+
+        <div class="main" style="position: relative;display: inline-block;">
+
+            <div style="position: absolute; bottom: top; left: 25%; color: rgb(68, 61, 89); padding: 10px; font-family: sans-serif;"><strong style="font-size: 28px; font-family: 'Times New Roman', Times, serif;">PoliClínica COOMFIAR</strong><br>Clínica Oftalmológica, Odontológia, Médica e de Fisioterapia</div> 
+
+            <div class="header">
+             <img src="https://as1.ftcdn.net/v2/jpg/07/22/65/70/1000_F_722657022_YTvVKT9DMq3SVcZPe1i6aPrswavdWEpv.jpg"  width="100%"height="300"alt="médico agendando consulta para paciente"/>
+               
+                <!-- Aqui vai o seu header -->
+            </div>
+    
+            <div class="content">
+               <!-- Aqui vai o seu conteúdo -->
+                 <form onsubmit="alert"(Formulário Enviado);>
+       Nome Completo: <input type="text" name="name" /> <label>Data de Nascimento:</label><input type="date">
+       Idade: <input type="number" name="age" min="0" max="120" />
+       <br><label>Endereço:</label><input type="text">
+       <label>Número:</label><input type="number" min="0"><br>
+       <label>Bairro:</label><input type="text">
+       <label>Cidade:</label><input type="text">
+       
+       <br>
+       <label>Telefone:</label><input type="tel"><br>
+       <label>E-mail:</label><input type="email" /><br><br>
+       <label>Qual a Semana gostaria de agendar sua consulta?</label><input type="week"><br>
+       <label>Selecionar Especialidade</label>
+       <select name="role" multiple>
+            
+            <option selected value="Clínica Geral">Clínica Geral</option>
+            <option value="Otorrinolaringologista">Otorrinolaringologista</option>
+            <option value="Pediatra">Pediatra</option>
+            <option value="Ginecologista">Ginecologista</option>
+            <option value="Urologista">Urologista</option>
+            <option value="Oftalmologista">Oftalmologista</option>
+            <option value="Odontologista">Odontologista</option>
+        </select>
+        <br><br>
+
+       Qual a Forma de Pagamento?<br>
+       <label>Particular</label><input type="radio" name="Particular"/>
+       <label>Convênio</label><input type="radio" name="Particular"/><br>
+       <label>Já Foi Atendido Aqui Antes?</label><input type="checkbox">
+       <label>Nosso Atendimento Foi Satisfatório?</label><input type="checkbox">
+       <label>Recomendaria a Outros Nossa Clínica?</label><input type="checkbox">
+       
+       <br>
+       <button type="reset">Limpar</button>
+       <button type="submit">Enviar</button>
+    </form>
+
+            </div>
+    
+            <div class="footer">
+                <div style="padding: 20px;">
+                Endreço: Avenida Raul Seixas, N° 100 CEP 42.850-000 Dias D`Ávila-BA<br><br>
+                Telefones de Contato: 71 3625-2525; 71 99128-5858;
+                Wattsapp 71 999555-66644<br><br>
+                e-mail: clinica_coomfiar@hotmail.com
+                </div>
+                <!-- Aqui vai o seu rodapé -->
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
