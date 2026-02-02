@@ -37,41 +37,39 @@
     
             <div class="content">
                <!-- Aqui vai o seu conteúdo -->
-                 <form onsubmit="alert"(Formulário Enviado);>
-       Nome Completo: <input type="text" name="name" /> <label>Data de Nascimento:</label><input type="date">
-       Idade: <input type="number" name="age" min="0" max="120" />
-       <br><label>Endereço:</label><input type="text">
-       <label>Número:</label><input type="number" min="0"><br>
-       <label>Bairro:</label><input type="text">
-       <label>Cidade:</label><input type="text">
-       
-       <br>
-       <label>Telefone:</label><input type="tel"><br>
-       <label>E-mail:</label><input type="email" /><br><br>
-       <label>Qual a Semana gostaria de agendar sua consulta?</label><input type="week"><br>
-       <label>Selecionar Especialidade</label>
-       <select name="role" multiple>
-            
-            <option selected value="Clínica Geral">Clínica Geral</option>
-            <option value="Otorrinolaringologista">Otorrinolaringologista</option>
-            <option value="Pediatra">Pediatra</option>
-            <option value="Ginecologista">Ginecologista</option>
-            <option value="Urologista">Urologista</option>
-            <option value="Oftalmologista">Oftalmologista</option>
-            <option value="Odontologista">Odontologista</option>
-        </select>
-        <br><br>
+                 <form method="get" onsubmit="alert"(Formulário Enviado);>
+                    Nome Completo*: <input type="text" name="name" /> <label>Data de Nascimento*:</label><input type="date">
+                    Idade: <input type="number" name="age" min="0" max="120" />
+                    <br><label>Endereço*:</label><input type="text">
+                    <label>Número:</label><input type="number" min="0"><br>
+                    <label>Bairro:</label><input type="text">
+                    <label>Cidade*:</label><input type="text">
+                    <br>
+                    <label>Telefone*:</label><input type="tel"><br>
+                    <label>E-mail:</label><input type="email" /><br>
+                    <label>Qual a Semana gostaria de agendar sua consulta?</label><input type="week"><br><br>
+                    <label>Selecionar Especialidade</label>
+                  <select name="role" multiple>
+                    <option selected value="Clínica Geral">Clínica Geral</option>
+                    <option value="Otorrinolaringologista">Otorrinolaringologista</option>
+                    <option value="Pediatra">Pediatra</option>
+                    <option value="Ginecologista">Ginecologista</option>
+                    <option value="Urologista">Urologista</option>
+                    <option value="Oftalmologista">Oftalmologista</option>
+                    <option value="Odontologista">Odontologista</option>
+                  </select><br>
+                    Qual a Forma de Pagamento?<br>
+                    <label>Particular</label><input type="radio" name="Particular"/>
+                    <label>Convênio</label><input type="radio" name="Particular"/><br>
+                    <label>Já Foi Atendido Aqui Antes?</label><input type="checkbox">
+                    <label>Nosso Atendimento Foi Satisfatório?</label><input type="checkbox"> <br>
+                    <label>Recomendaria a Outros Nossa Clínica?</label><input type="checkbox"> <br> <br>
+                <textarea rows="10" cols="100" name="mensage">Sua Opinião e Sugestões são importantes para nós. Digite Aqui:
 
-       Qual a Forma de Pagamento?<br>
-       <label>Particular</label><input type="radio" name="Particular"/>
-       <label>Convênio</label><input type="radio" name="Particular"/><br>
-       <label>Já Foi Atendido Aqui Antes?</label><input type="checkbox">
-       <label>Nosso Atendimento Foi Satisfatório?</label><input type="checkbox">
-       <label>Recomendaria a Outros Nossa Clínica?</label><input type="checkbox">
+                </textarea><br><br>
        
-       <br>
-       <button type="reset">Limpar</button>
-       <button type="submit">Enviar</button>
+                <button type="reset"><b>Limpar</b></button>
+                <button type="submit"><b>Enviar</b></button>
     </form>
 
             </div>

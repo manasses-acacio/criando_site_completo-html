@@ -82,7 +82,18 @@ table th{
     background-color: black;
     color: white;
 }
+button{
+    width: 100px;
+    background-color: aquamarine;
+    padding: 10px; 
+    cursor: pointer; 
+    border-radius: 15px;
     
+}
+button :hover {
+    background-color: floralwhite;
+    
+}    
 .footer {
     background-color: rgb(121, 100, 114);
     min-height: 150px;
