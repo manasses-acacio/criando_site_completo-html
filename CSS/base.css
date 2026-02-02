@@ -69,12 +69,20 @@ ul{
 iframe{
      display: flex; justify-content: center;
 }
-table tr:nth-child(even)+ {
+table tr:nth-child(even){
     background-color: rgb(190, 231, 190);
 
-    
 } 
+table tr:hover td{
+    background-color: greenyellow;
+    cursor: pointer;
 
+}
+table th{
+    background-color: black;
+    color: white;
+}
+    
 .footer {
     background-color: rgb(121, 100, 114);
     min-height: 150px;
